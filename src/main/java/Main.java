@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Main {
+    //Game and DB initialization and game setup
     public static void main(String[] args) {
         DBInitializer.init();
         Game game = new Game();
