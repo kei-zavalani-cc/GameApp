@@ -13,7 +13,7 @@ public class GamesRepo {
         Player winner = game.getWinner();
 
         String sql = """
-                    INSERT INTO game_results (p1, p2, p3, p4)
+                    INSERT INTO GAME_RESULTS (Player1, Player2, Player3, Player4)
                     VALUES (?, ?, ?, ?)
                 """;
 
