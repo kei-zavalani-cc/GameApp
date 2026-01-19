@@ -6,10 +6,10 @@ public class DBInitializer {
         String sql = """
             CREATE TABLE IF NOT EXISTS GAME_RESULTS (
                 GAME_ID INT AUTO_INCREMENT PRIMARY KEY,
-                P1 INT,
-                P2 INT,
-                P3 INT,
-                P4 INT
+                Player1 INT,
+                Player2 INT,
+                Player3 INT,
+                Player4 INT
             )
         """;
 
